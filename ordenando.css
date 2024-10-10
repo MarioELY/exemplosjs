@@ -1,0 +1,68 @@
+/* Estilização geral para a página */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilização do formulário */
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Estilização da lista de valores */
+ul#valores {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+ul#valores li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Estilização para centralizar os elementos */
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.ordenacao {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
